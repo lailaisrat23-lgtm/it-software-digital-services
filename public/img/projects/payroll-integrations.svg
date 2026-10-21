@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img">
+  <title>Payroll integration layer with provider connections</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071021"/><stop offset="1" stop-color="#1a1230"/>
+    </linearGradient>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="600" cy="380" r="260" fill="#4f46e5" opacity=".14"/>
+  <circle cx="600" cy="380" r="150" fill="#22d3ee" opacity=".1"/>
+
+  <g stroke="#26314f" stroke-width="1.5" fill="none">
+    <path d="M600 330V180h-190"/>
+    <path d="M600 330V180h190"/>
+    <path d="M600 430v150h-190"/>
+    <path d="M600 430v150h190"/>
+    <path d="M470 380H360"/>
+    <path d="M730 380h110"/>
+  </g>
+
+  <g fill="#101d33" stroke="#26314f">
+    <rect x="410" y="148" width="132" height="64" rx="14"/>
+    <rect x="658" y="148" width="132" height="64" rx="14"/>
+    <rect x="410" y="548" width="132" height="64" rx="14"/>
+    <rect x="658" y="548" width="132" height="64" rx="14"/>
+    <rect x="228" y="348" width="132" height="64" rx="14"/>
+    <rect x="840" y="348" width="132" height="64" rx="14"/>
+  </g>
+
+  <g fill="#2dd4bf">
+    <circle cx="428" cy="168" r="5"/>
+    <circle cx="676" cy="168" r="5"/>
+    <circle cx="428" cy="568" r="5"/>
+    <circle cx="676" cy="568" r="5"/>
+    <circle cx="246" cy="368" r="5"/>
+    <circle cx="858" cy="368" r="5"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#c9d2ea">
+    <text x="444" y="200">Provider A</text>
+    <text x="692" y="200">Provider B</text>
+    <text x="444" y="600">Payroll API</text>
+    <text x="692" y="600">Bank file</text>
+    <text x="262" y="400">HRIS</text>
+    <text x="874" y="400">Ledger</text>
+  </g>
+
+  <rect x="500" y="300" width="200" height="160" rx="24" fill="url(#hub)"/>
+  <text x="600" y="356" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Integration</text>
+  <text x="600" y="378" font-family="Inter, Segoe UI, sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">layer</text>
+  <text x="600" y="408" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#e6ecff" text-anchor="middle">idempotent jobs</text>
+  <text x="600" y="426" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#e6ecff" text-anchor="middle">audit trail</text>
+
+  <g>
+    <rect x="60" y="60" width="330" height="112" rx="18" fill="#101d33" stroke="#26314f"/>
+    <text x="86" y="96" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#7e8cb0">RECONCILIATION</text>
+    <text x="86" y="136" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#ffffff">99.4%</text>
+    <text x="86" y="158" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#7e8cb0">manual spreadsheet retired</text>
+  </g>
+
+  <g>
+    <rect x="810" y="60" width="330" height="112" rx="18" fill="#101d33" stroke="#26314f"/>
+    <text x="836" y="96" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#7e8cb0">PROVIDERS CONNECTED</text>
+    <text x="836" y="136" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#ffffff">20</text>
+    <text x="836" y="158" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#7e8cb0">each with its own retry policy</text>
+  </g>
+
+  <g>
+    <rect x="60" y="620" width="1080" height="82" rx="18" fill="#101d33" stroke="#26314f"/>
+    <text x="86" y="652" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#7e8cb0">EVERY RUN IS TRACEABLE</text>
+    <text x="86" y="678" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#c9d2ea">queue → contract → provider → ledger, with retries and an immutable audit record</text>
+    <rect x="940" y="640" width="176" height="36" rx="18" fill="#123c35"/>
+    <text x="1028" y="663" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#2dd4bf" text-anchor="middle">All queues healthy</text>
+  </g>
+</svg>

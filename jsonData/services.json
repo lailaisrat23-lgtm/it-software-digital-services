@@ -1,0 +1,104 @@
+[
+  {
+    "id": "custom-software",
+    "icon": "code",
+    "title": "Custom Software Development",
+    "summary": "Line-of-business platforms and internal tools built to your client's process — delivered under your brand, in your repository.",
+    "details": [
+      "When an off-the-shelf product forces a client into a process that does not exist, the cheapest fix is rarely another licence. We build the system the operation actually needs: a scheduling engine, a quoting tool, a compliance workflow, a record that reflects reality instead of a consultant's diagram.",
+      "We start from the data model and the people using it, then iterate in two-week slices so the first release is useful long before the last one ships."
+    ],
+    "features": [
+      "Discovery and domain model",
+      "Backend services and APIs",
+      "ERP and CRM integration",
+      "Automated test suite"
+    ],
+    "featured": true
+  },
+  {
+    "id": "web-platforms",
+    "icon": "layers",
+    "title": "Web Platforms & Portals",
+    "summary": "Customer portals, dashboards and multi-tenant products that stay fast as data, countries and users grow.",
+    "details": [
+      "Portals and multi-tenant products are where a client's customers and staff spend their working day. They need to stay fast on a mid-range phone and make sense to someone who has used the system for four minutes, not four years.",
+      "Accessibility is part of the definition of done rather than a later audit, and performance budgets are enforced in continuous integration so a new feature cannot quietly double the page weight."
+    ],
+    "features": [
+      "Server-rendered or SPA architecture",
+      "Design system integration",
+      "Role-based access control",
+      "WCAG 2.2 AA accessibility"
+    ],
+    "featured": true
+  },
+  {
+    "id": "mobile-apps",
+    "icon": "device",
+    "title": "Mobile App Development",
+    "summary": "Native-quality iOS and Android apps with offline support, built as a white-label extension of your delivery team.",
+    "details": [
+      "Field teams lose connectivity exactly where the work happens. Our mobile builds queue every action locally and reconcile when the signal returns, so nobody stands in a basement waiting for a spinner to resolve.",
+      "Where hardware matters — scanning, photography, GPS, Bluetooth sensors — we integrate natively instead of pretending a web page will do the job."
+    ],
+    "features": [
+      "iOS and Android releases",
+      "Offline sync and conflict handling",
+      "Camera, scanning and location",
+      "Store submission and release management"
+    ],
+    "featured": true
+  },
+  {
+    "id": "cloud-devops",
+    "icon": "cloud",
+    "title": "Cloud & DevOps Engineering",
+    "summary": "Migration, infrastructure as code and release pipelines that shrink a deploy window from days to minutes.",
+    "details": [
+      "Most delivery pain is environmental: three different ways to deploy, no staging parity, and exactly one person who knows what the scripts do. We replace that with infrastructure as code, reproducible environments and a pipeline anyone on the team can run on a Friday afternoon.",
+      "Migrations are rehearsed, reversible and scheduled around the client's operations calendar — not announced on the morning they happen."
+    ],
+    "features": [
+      "AWS or Azure landing zone",
+      "Terraform environment modules",
+      "CI/CD pipelines",
+      "Monitoring, alerting and runbooks"
+    ],
+    "featured": true
+  },
+  {
+    "id": "data-ai",
+    "icon": "spark",
+    "title": "Data & AI Solutions",
+    "summary": "Warehouse modelling, reporting your operators trust, and automation with a human review path.",
+    "details": [
+      "A dashboard only earns its keep when the numbers are trusted. We model the warehouse, define each metric once, and publish the definition next to the chart so the argument about whose figure is correct stops recurring.",
+      "Automation is applied where it removes repetitive work — document intake, triage, anomaly detection — always with a human review path and an audit trail."
+    ],
+    "features": [
+      "Warehouse and metric modelling",
+      "Batch and streaming pipelines",
+      "Operational dashboards",
+      "Human-in-the-loop automation"
+    ],
+    "featured": true
+  },
+  {
+    "id": "product-design",
+    "icon": "pen",
+    "title": "Product Design & UX",
+    "summary": "Research, interface design and design systems that make engineering estimates shorter.",
+    "details": [
+      "Interface design in a delivery context is an engineering decision: fewer states, clearer defaults, less support load. We research with the people who use the product and prototype the risky screens before they are expensive to change.",
+      "The output is not a pile of screens. It is a component library with tokens, states and documentation your developers can implement without booking another meeting."
+    ],
+    "features": [
+      "User research and journey maps",
+      "Interactive prototypes",
+      "Design tokens and components",
+      "Usability testing"
+    ],
+    "featured": true
+  }
+]

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img">
+  <title>Fleet telemetry map with live vehicle alerts</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050d18"/><stop offset="1" stop-color="#0b2137"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e9f8a"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".28"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <g stroke="#12263f" stroke-width="1">
+    <path d="M0 160h1200M0 320h1200M0 480h1200M0 640h1200"/>
+    <path d="M160 0v760M420 0v760M680 0v760M940 0v760"/>
+  </g>
+
+  <rect x="60" y="60" width="700" height="440" rx="20" fill="#0a1728" stroke="#17314d"/>
+  <text x="88" y="98" font-family="Inter, Segoe UI, sans-serif" font-size="12" letter-spacing="1" fill="#6d84a6">DEPOT COVERAGE · LIVE</text>
+
+  <path d="M120 420c60-70 90-160 180-150s80 70 160 40 90-110 170-90 60 90 60 90" fill="none" stroke="#1f7ae0" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+  <path d="M140 300c70-40 120 20 190 6s90-70 170-40" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="6 8" opacity=".6"/>
+
+  <g>
+    <circle cx="220" cy="200" r="14" fill="#22d3ee" opacity=".18"/>
+    <circle cx="220" cy="200" r="6" fill="#22d3ee"/>
+    <circle cx="380" cy="330" r="14" fill="#22d3ee" opacity=".18"/>
+    <circle cx="380" cy="330" r="6" fill="#22d3ee"/>
+    <circle cx="600" cy="240" r="14" fill="#22d3ee" opacity=".18"/>
+    <circle cx="600" cy="240" r="6" fill="#22d3ee"/>
+    <circle cx="700" cy="380" r="16" fill="#fbbf24" opacity=".22"/>
+    <circle cx="700" cy="380" r="7" fill="#fbbf24"/>
+  </g>
+
+  <rect x="620" y="392" width="128" height="40" rx="10" fill="#2a1f0c" stroke="#5c4415"/>
+  <text x="640" y="417" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#fbbf24">Brake wear</text>
+
+  <rect x="60" y="524" width="700" height="176" rx="20" fill="#0a1728" stroke="#17314d"/>
+  <text x="88" y="560" font-family="Inter, Segoe UI, sans-serif" font-size="12" letter-spacing="1" fill="#6d84a6">FAULT PREDICTIONS · 7 DAYS</text>
+  <path d="M88 660l60-18 60 10 60-34 60 6 60-28 60 12 60-30 60 8 60-24 60-6" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M88 660l60-18 60 10 60-34 60 6 60-28 60 12 60-30 60 8 60-24 60-6v40H88z" fill="url(#area)"/>
+
+  <g>
+    <rect x="800" y="60" width="340" height="140" rx="20" fill="#0a1728" stroke="#17314d"/>
+    <text x="828" y="96" font-family="Inter, Segoe UI, sans-serif" font-size="12" letter-spacing="1" fill="#6d84a6">UNPLANNED DOWNTIME</text>
+    <text x="828" y="142" font-family="Inter, Segoe UI, sans-serif" font-size="32" font-weight="700" fill="#ffffff">−19%</text>
+    <text x="828" y="168" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#6d84a6">across a 240-vehicle fleet</text>
+  </g>
+  <g>
+    <rect x="800" y="220" width="340" height="140" rx="20" fill="#0a1728" stroke="#17314d"/>
+    <text x="828" y="256" font-family="Inter, Segoe UI, sans-serif" font-size="12" letter-spacing="1" fill="#6d84a6">EVENTS PER MINUTE</text>
+    <text x="828" y="302" font-family="Inter, Segoe UI, sans-serif" font-size="32" font-weight="700" fill="#ffffff">12.4k</text>
+    <rect x="828" y="320" width="284" height="8" rx="4" fill="#17314d"/>
+    <rect x="828" y="320" width="210" height="8" rx="4" fill="url(#line)"/>
+  </g>
+  <g>
+    <rect x="800" y="380" width="340" height="320" rx="20" fill="#0a1728" stroke="#17314d"/>
+    <text x="828" y="416" font-family="Inter, Segoe UI, sans-serif" font-size="12" letter-spacing="1" fill="#6d84a6">ALERT RULES</text>
+    <circle cx="838" cy="452" r="5" fill="#2dd4bf"/>
+    <text x="856" y="457" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#c9d2ea">Brake wear threshold</text>
+    <circle cx="838" cy="490" r="5" fill="#2dd4bf"/>
+    <text x="856" y="495" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#c9d2ea">Coolant trend</text>
+    <circle cx="838" cy="528" r="5" fill="#fbbf24"/>
+    <text x="856" y="533" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#c9d2ea">Tyre pressure drift</text>
+    <circle cx="838" cy="566" r="5" fill="#2dd4bf"/>
+    <text x="856" y="571" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#c9d2ea">Depot idle time</text>
+    <rect x="828" y="596" width="284" height="72" rx="12" fill="#0f2236"/>
+    <text x="848" y="626" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#6d84a6">STREAM</text>
+    <text x="848" y="650" font-family="Inter, Segoe UI, sans-serif" font-size="13" fill="#22d3ee">Kafka · TimescaleDB · Grafana</text>
+  </g>
+</svg>

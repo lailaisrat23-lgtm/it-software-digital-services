@@ -1,0 +1,92 @@
+[
+  {
+    "id": "software",
+    "icon": "code",
+    "title": "Custom Software Development Firms",
+    "tagline": "Overflow engineering that never touches your client relationship.",
+    "summary": "Boutique software houses and digital consultancies win work faster than they can staff it. We act as the second squad behind your brand — same standards, your repository, your client never hears our name unless you want them to.",
+    "pains": [
+      "Bench swings between sold projects and signed contracts",
+      "Senior engineers pulled off delivery to support sales",
+      "Fixed-price estimates that need a second team to hold"
+    ],
+    "offers": [
+      "White-label squads under your brand and process",
+      "Fixed-scope modules with written acceptance criteria",
+      "NDA-first delivery in your repo, tools and ceremonies"
+    ],
+    "metric": { "value": "34", "label": "partner studios" }
+  },
+  {
+    "id": "saas",
+    "icon": "layers",
+    "title": "SaaS Product Companies",
+    "tagline": "Ship the roadmap you sold, with a pod that already knows your stack.",
+    "summary": "Product teams get stuck between a hiring freeze and a roadmap the board has already seen. We plug in as a feature pod for one or two quarters, take ownership of a surface, and leave documentation your team can run without us.",
+    "pains": [
+      "Roadmap blocked by hiring and onboarding lag",
+      "Billing, auth or import layers nobody wants to touch",
+      "Trial onboarding that leaks activation every month"
+    ],
+    "offers": [
+      "Feature pods releasing every two weeks",
+      "Re-platform and migration work on legacy surfaces",
+      "Activation instrumentation and onboarding rebuilds"
+    ],
+    "metric": { "value": "41", "label": "SaaS products supported" }
+  },
+  {
+    "id": "marketing",
+    "icon": "spark",
+    "title": "Digital Marketing Agencies",
+    "tagline": "Campaign sites and microsites that land inside the launch date.",
+    "summary": "Campaign calendars do not move for development queues. We build landing pages, microsites and tracking implementations to your creative direction, then hand over a CMS your account team can edit without raising a ticket.",
+    "pains": [
+      "Dev capacity booked out for the whole campaign cycle",
+      "CRO and copy changes waiting on a developer",
+      "Landing pages failing Core Web Vitals on mobile"
+    ],
+    "offers": [
+      "Landing page and microsite builds at campaign speed",
+      "A/B test and experiment implementation",
+      "CMS handover your account team can actually edit"
+    ],
+    "metric": { "value": "120+", "label": "campaign builds shipped" }
+  },
+  {
+    "id": "studio",
+    "icon": "pen",
+    "title": "UI/UX Design Studios",
+    "tagline": "Your design, engineered faithfully — state for state.",
+    "summary": "Design intent usually dies in handoff. We implement to your Figma, including the empty, loading, error and disabled states that never make it into the deck, and we document the components so the next feature is cheaper than the last.",
+    "pains": [
+      "Design intent lost between prototype and production",
+      "No engineering partner for design-system work",
+      "Prototypes that need real data to convince stakeholders"
+    ],
+    "offers": [
+      "Design-system and component-library implementation",
+      "Front-end engineering to your Figma specifications",
+      "Accessible component libraries at WCAG 2.2 AA"
+    ],
+    "metric": { "value": "26", "label": "design systems implemented" }
+  },
+  {
+    "id": "devops",
+    "icon": "cloud",
+    "title": "Cloud & DevOps Consultancies",
+    "tagline": "Platform work delivered by engineers who read the runbook.",
+    "summary": "Assessments are easy to sell and hard to execute when the client wants the findings closed this quarter. We provide the hands for migrations, Terraform modules and observability so your recommendation becomes a delivered outcome.",
+    "pains": [
+      "Migration windows slipping while assessments age",
+      "Infrastructure-as-code drift with no named owner",
+      "Audit findings with no capacity to close them"
+    ],
+    "offers": [
+      "Terraform module builds and landing zones",
+      "Rehearsed, reversible migration execution",
+      "Observability, alerting and inherited runbooks"
+    ],
+    "metric": { "value": "99.97%", "label": "uptime maintained post-handover" }
+  }
+]

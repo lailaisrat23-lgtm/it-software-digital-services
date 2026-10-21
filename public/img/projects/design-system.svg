@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img">
+  <title>Multi-product design system with tokens and components</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151530"/><stop offset="1" stop-color="#2b2350"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4348a8"/><stop offset="1" stop-color="#7f8bff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="980" cy="100" r="200" fill="#7f8bff" opacity=".16"/>
+
+  <rect x="60" y="70" width="1080" height="620" rx="22" fill="#ffffff" stroke="#dfe6f6"/>
+  <text x="96" y="126" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#0c1424">Design system</text>
+  <text x="96" y="152" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#586281">4 product squads · one library</text>
+  <rect x="960" y="104" width="144" height="30" rx="15" fill="#ecebff"/>
+  <text x="1032" y="124" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#4338ca" text-anchor="middle">v2.4 published</text>
+
+  <text x="96" y="200" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#586281">COLOUR TOKENS</text>
+  <rect x="96" y="214" width="84" height="84" rx="14" fill="#4338ca"/>
+  <rect x="192" y="214" width="84" height="84" rx="14" fill="#7c6cff"/>
+  <rect x="288" y="214" width="84" height="84" rx="14" fill="#22d3ee"/>
+  <rect x="384" y="214" width="84" height="84" rx="14" fill="#2dd4bf"/>
+  <rect x="480" y="214" width="84" height="84" rx="14" fill="#fbbf24"/>
+  <rect x="576" y="214" width="84" height="84" rx="14" fill="#eef1fa" stroke="#e5e9f4"/>
+  <rect x="672" y="214" width="84" height="84" rx="14" fill="#0c1424"/>
+
+  <text x="96" y="352" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#586281">TYPE SCALE</text>
+  <text x="96" y="396" font-family="Inter, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#0c1424">Display 40</text>
+  <text x="96" y="430" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="600" fill="#1b2743">Heading 24</text>
+  <text x="96" y="458" font-family="Inter, Segoe UI, sans-serif" font-size="15" fill="#586281">Body 15 · line-height 1.6</text>
+
+  <text x="96" y="512" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#586281">COMPONENTS</text>
+  <rect x="96" y="528" width="150" height="44" rx="22" fill="url(#brand)"/>
+  <text x="171" y="555" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">Primary</text>
+  <rect x="262" y="528" width="150" height="44" rx="22" fill="#ffffff" stroke="#cfd7ea"/>
+  <text x="337" y="555" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#0c1424" text-anchor="middle">Secondary</text>
+  <rect x="428" y="528" width="150" height="44" rx="22" fill="#ecebff"/>
+  <text x="503" y="555" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#4338ca" text-anchor="middle">Quiet</text>
+  <rect x="596" y="528" width="150" height="44" rx="12" fill="#f6f7fc" stroke="#e5e9f4" stroke-dasharray="5 5"/>
+  <text x="671" y="555" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#586281" text-anchor="middle">Focus state</text>
+
+  <rect x="800" y="200" width="304" height="404" rx="18" fill="#f6f7fc" stroke="#e5e9f4"/>
+  <text x="824" y="234" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#586281">STORYBOOK</text>
+  <rect x="824" y="252" width="256" height="70" rx="12" fill="#ffffff" stroke="#e5e9f4"/>
+  <rect x="840" y="270" width="80" height="34" rx="8" fill="#ecebff"/>
+  <rect x="932" y="278" width="120" height="8" rx="4" fill="#e5e9f4"/>
+  <rect x="932" y="294" width="90" height="8" rx="4" fill="#eef1fa"/>
+  <rect x="824" y="334" width="256" height="70" rx="12" fill="#ffffff" stroke="#e5e9f4"/>
+  <rect x="840" y="352" width="80" height="34" rx="8" fill="#e7f8f1"/>
+  <rect x="932" y="360" width="110" height="8" rx="4" fill="#e5e9f4"/>
+  <rect x="932" y="376" width="70" height="8" rx="4" fill="#eef1fa"/>
+  <rect x="824" y="416" width="256" height="70" rx="12" fill="#ffffff" stroke="#e5e9f4"/>
+  <rect x="840" y="434" width="80" height="34" rx="8" fill="#e0f7fb"/>
+  <rect x="932" y="442" width="132" height="8" rx="4" fill="#e5e9f4"/>
+  <rect x="932" y="458" width="84" height="8" rx="4" fill="#eef1fa"/>
+
+  <rect x="824" y="510" width="256" height="70" rx="12" fill="#0c1424"/>
+  <text x="844" y="540" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#7e8cb0">UI DELIVERY</text>
+  <text x="844" y="564" font-family="Inter, Segoe UI, sans-serif" font-size="20" font-weight="700" fill="#ffffff">40% faster</text>
+</svg>

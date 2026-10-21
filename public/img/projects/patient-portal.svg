@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img">
+  <title>Patient self-service portal</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1b2a"/><stop offset="1" stop-color="#12324a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f7ae0"/><stop offset="1" stop-color="#15b6c9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="1080" cy="120" r="190" fill="#15b6c9" opacity=".14"/>
+
+  <rect x="60" y="70" width="1080" height="620" rx="22" fill="#ffffff" stroke="#dfe6f6"/>
+  <rect x="60" y="70" width="1080" height="66" rx="22" fill="#f6f7fc"/>
+  <rect x="60" y="114" width="1080" height="22" fill="#f6f7fc"/>
+  <rect x="96" y="94" width="120" height="14" rx="7" fill="#cfd7ea"/>
+  <rect x="860" y="90" width="100" height="22" rx="11" fill="#e5e9f4"/>
+  <rect x="976" y="90" width="128" height="22" rx="11" fill="url(#accent)"/>
+
+  <text x="100" y="200" font-family="Inter, Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#0c1424">Good morning, Sam</text>
+  <text x="100" y="226" font-family="Inter, Segoe UI, sans-serif" font-size="13" fill="#586281">Appointments, results and billing in one place</text>
+
+  <rect x="100" y="252" width="460" height="150" rx="16" fill="#f6f7fc" stroke="#e5e9f4"/>
+  <text x="124" y="282" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#586281">NEXT APPOINTMENT</text>
+  <text x="124" y="318" font-family="Inter, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#0c1424">Cardiology review · 14 Nov</text>
+  <text x="124" y="344" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#586281">09:20 · Clinic B · Dr. Ellis</text>
+  <rect x="124" y="362" width="150" height="28" rx="14" fill="url(#accent)"/>
+  <text x="199" y="381" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">Reschedule</text>
+
+  <rect x="580" y="252" width="536" height="150" rx="16" fill="#f6f7fc" stroke="#e5e9f4"/>
+  <text x="604" y="282" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#586281">RECENT RESULTS</text>
+  <rect x="604" y="300" width="220" height="10" rx="5" fill="#cfd7ea"/>
+  <rect x="604" y="324" width="170" height="10" rx="5" fill="#e5e9f4"/>
+  <rect x="604" y="348" width="196" height="10" rx="5" fill="#e5e9f4"/>
+  <rect x="976" y="300" width="116" height="26" rx="13" fill="#e7f8f1"/>
+  <text x="1034" y="317" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#0a7c56" text-anchor="middle">Normal</text>
+  <rect x="976" y="336" width="116" height="26" rx="13" fill="#eef1fa"/>
+  <text x="1034" y="353" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#586281" text-anchor="middle">Reviewed</text>
+
+  <rect x="100" y="426" width="1016" height="128" rx="16" fill="#ffffff" stroke="#e5e9f4"/>
+  <text x="124" y="456" font-family="Inter, Segoe UI, sans-serif" font-size="11" letter-spacing="1" fill="#586281">BILLING</text>
+  <text x="124" y="490" font-family="Inter, Segoe UI, sans-serif" font-size="18" font-weight="700" fill="#0c1424">No balance outstanding</text>
+  <text x="124" y="516" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#586281">Last invoice settled 02 Oct · receipts available to download</text>
+  <rect x="876" y="470" width="216" height="44" rx="22" fill="#eef1fa"/>
+  <text x="984" y="497" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#0c1424" text-anchor="middle">Download receipts</text>
+
+  <rect x="100" y="578" width="1016" height="76" rx="16" fill="#e7f8f1"/>
+  <circle cx="132" cy="616" r="12" fill="#0e9f6e"/>
+  <path d="M126 616l5 5 9-10" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="158" y="612" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#0a7c56">WCAG 2.2 AA · keyboard and screen-reader tested</text>
+  <text x="158" y="634" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#3f6b5e">31% fewer phone contacts in the first quarter</text>
+</svg>

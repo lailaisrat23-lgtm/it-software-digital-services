@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — partner work delivered by Techspire</title>
+  <meta name="description" content="Partner-delivered web, mobile, cloud, data and design projects. Filter by capability or by the type of partner we delivered through." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Ctext x='16' y='22' font-family='Segoe UI,Arial' font-size='14' font-weight='700' fill='white' text-anchor='middle'%3ETS%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="../../../public/css/style.css" />
+</head>
+<body data-page="portfolio">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div data-component="header"></div>
+
+  <noscript>
+    <nav class="container nav-fallback" aria-label="Pages">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="industries.html">Industries</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <p class="container notice">
+      Search and filtering need JavaScript. Every project is listed below without them.
+    </p>
+  </noscript>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <h1>Work that shipped <span class="text-gradient">through a partner</span></h1>
+          <p class="lead">
+            Nine engagements, each delivered behind another company's brand. Filter by capability or by
+            the type of partner we worked through — the outcomes are the ones the end client measured.
+          </p>
+          <ul class="page-hero__meta">
+            <li><span class="pill">9 case summaries</span></li>
+            <li><span class="pill">5 partner types</span></li>
+            <li><span class="pill pill--accent">All in production</span></li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel" aria-label="Portfolio at a glance">
+          <p class="hero-panel__title">Delivered under partner brands</p>
+          <ul class="hero-panel__stats">
+            <li><strong>120+</strong><span>Products shipped since 2011</span></li>
+            <li><strong>11</strong><span>Countries served</span></li>
+            <li><strong>96%</strong><span>Partners who return</span></li>
+            <li><strong>4.9/5</strong><span>Average partner rating</span></li>
+          </ul>
+          <p class="hero-panel__note">Client names are withheld under partner NDAs; references are available on request.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="portfolio-title">
+      <div class="container" data-filters>
+        <h2 id="portfolio-title" class="visually-hidden">Project list</h2>
+
+        <div class="filters">
+          <div class="search">
+            <label class="search__label" for="project-search">Search projects</label>
+            <div class="search__field">
+              <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M20 20l-3.5-3.5" /></svg>
+              <input
+                class="search__input"
+                id="project-search"
+                type="search"
+                placeholder="Try “offline”, “checkout” or “Kafka”"
+                autocomplete="off"
+                data-filter-search
+              />
+            </div>
+          </div>
+
+          <div class="filters__groups">
+            <div class="filter-group">
+              <p class="search__label" id="filter-discipline-label">Capability</p>
+              <ul class="chips" data-filter-group="category" aria-labelledby="filter-discipline-label">
+                <li><button class="chip" type="button" data-filter-value="all" aria-pressed="true">All</button></li>
+                <li><button class="chip" type="button" data-filter-value="web" aria-pressed="false">Web</button></li>
+                <li><button class="chip" type="button" data-filter-value="mobile" aria-pressed="false">Mobile</button></li>
+                <li><button class="chip" type="button" data-filter-value="cloud" aria-pressed="false">Cloud</button></li>
+                <li><button class="chip" type="button" data-filter-value="data" aria-pressed="false">Data</button></li>
+                <li><button class="chip" type="button" data-filter-value="design" aria-pressed="false">Design</button></li>
+              </ul>
+            </div>
+
+            <div class="filter-group">
+              <p class="search__label" id="filter-vertical-label">Partner type</p>
+              <ul class="chips" data-filter-group="vertical" aria-labelledby="filter-vertical-label">
+                <li><button class="chip" type="button" data-filter-value="all" aria-pressed="true">All</button></li>
+                <li><button class="chip" type="button" data-filter-value="software" aria-pressed="false">Software house</button></li>
+                <li><button class="chip" type="button" data-filter-value="saas" aria-pressed="false">SaaS team</button></li>
+                <li><button class="chip" type="button" data-filter-value="marketing" aria-pressed="false">Agency</button></li>
+                <li><button class="chip" type="button" data-filter-value="studio" aria-pressed="false">Studio</button></li>
+                <li><button class="chip" type="button" data-filter-value="devops" aria-pressed="false">Consultancy</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="filters__meta">
+          <p class="filters__count" data-filter-count aria-live="polite">Loading projects…</p>
+          <p class="filters__count">Search matches titles, summaries, partner types and tags.</p>
+        </div>
+
+        <!-- Cards from jsonData/projects.json; filtering runs over the rendered DOM -->
+        <ul class="project-grid" data-project-grid data-collection="projects"></ul>
+
+        <div class="results-empty" data-filter-empty hidden>
+          <h2>No projects match that combination</h2>
+          <p>Try a different keyword, or clear the filters to see all nine projects.</p>
+          <button class="btn btn--ghost btn--sm" type="button" data-filter-reset>Clear filters</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" aria-labelledby="portfolio-more-title">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Not listed here</p>
+          <h2 id="portfolio-more-title">Some of our best work is under NDA</h2>
+          <p class="text-muted">
+            Payment platforms, claims systems and internal tooling for regulated industries do not
+            always make it onto a public page. We can walk you through comparable projects, including
+            architecture decisions and the parts that went wrong, on a call.
+          </p>
+          <div class="section__actions">
+            <a class="btn btn--primary" href="contact.html">
+              Request references
+              <span class="btn__arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="quote-panel">
+          <p class="quote-panel__mark" aria-hidden="true">“</p>
+          <p>
+            They showed us the two projects that failed as openly as the twelve that shipped. That is
+            why we signed.
+          </p>
+          <span class="quote-panel__by">
+            <b>Daniel Okafor</b><br />
+            Principal Consultant, Vantage Cloud Partners
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-component="footer"></div>
+
+  <script src="../../../public/js/components.js" defer></script>
+  <script src="../../../public/js/data.js" defer></script>
+  <script src="../../../public/js/filters.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img">
+  <title>Dispatch control tower dashboard</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1020"/><stop offset="1" stop-color="#1b2743"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f46e5"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#4f46e5" stop-opacity=".35"/><stop offset="1" stop-color="#6d5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="1060" cy="90" r="150" fill="#4f46e5" opacity=".16"/>
+  <circle cx="130" cy="700" r="170" fill="#22d3ee" opacity=".12"/>
+
+  <rect x="60" y="70" width="1080" height="620" rx="22" fill="#0f172e" stroke="#27314e"/>
+  <path d="M60 92a22 22 0 0 1 22-22h1036a22 22 0 0 1 22 22v38H60z" fill="#131d38"/>
+  <circle cx="96" cy="110" r="6" fill="#3b476b"/>
+  <circle cx="118" cy="110" r="6" fill="#3b476b"/>
+  <circle cx="140" cy="110" r="6" fill="#3b476b"/>
+  <rect x="180" y="98" width="330" height="24" rx="12" fill="#1b2743"/>
+  <text x="198" y="115" font-family="Inter, Segoe UI, sans-serif" font-size="13" fill="#7e8cb0">control-tower.partner.internal/dispatch</text>
+
+  <rect x="60" y="130" width="188" height="560" fill="#0c1428"/>
+  <rect x="84" y="162" width="104" height="12" rx="6" fill="url(#accent)"/>
+  <rect x="84" y="206" width="128" height="10" rx="5" fill="#26314f"/>
+  <rect x="84" y="238" width="96" height="10" rx="5" fill="#26314f"/>
+  <rect x="84" y="270" width="118" height="10" rx="5" fill="#26314f"/>
+  <rect x="84" y="302" width="78" height="10" rx="5" fill="#26314f"/>
+  <rect x="72" y="196" width="164" height="30" rx="10" fill="#16213c"/>
+
+  <text x="276" y="176" font-family="Inter, Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#f2f5ff">Live dispatch</text>
+  <circle cx="452" cy="169" r="5" fill="#2dd4bf"/>
+  <text x="466" y="174" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#7e8cb0">updated 4s ago</text>
+
+  <g>
+    <rect x="276" y="198" width="180" height="92" rx="14" fill="#141f3a" stroke="#27314e"/>
+    <text x="296" y="228" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#7e8cb0">ON TIME</text>
+    <text x="296" y="262" font-family="Inter, Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#f2f5ff">1 284</text>
+  </g>
+  <g>
+    <rect x="474" y="198" width="180" height="92" rx="14" fill="#141f3a" stroke="#27314e"/>
+    <text x="494" y="228" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#7e8cb0">AT RISK</text>
+    <text x="494" y="262" font-family="Inter, Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#fbbf24">37</text>
+  </g>
+  <g>
+    <rect x="672" y="198" width="180" height="92" rx="14" fill="#141f3a" stroke="#27314e"/>
+    <text x="692" y="228" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#7e8cb0">DELAYED</text>
+    <text x="692" y="262" font-family="Inter, Segoe UI, sans-serif" font-size="26" font-weight="700" fill="#f2f5ff">12</text>
+  </g>
+  <g>
+    <rect x="870" y="198" width="242" height="92" rx="14" fill="#141f3a" stroke="#27314e"/>
+    <text x="890" y="228" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#7e8cb0">FLEET UTILISATION</text>
+    <rect x="890" y="242" width="200" height="8" rx="4" fill="#26314f"/>
+    <rect x="890" y="242" width="164" height="8" rx="4" fill="url(#accent)"/>
+    <text x="890" y="276" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#a8b4d3">82% of 240 vehicles</text>
+  </g>
+
+  <rect x="276" y="306" width="470" height="240" rx="14" fill="#141f3a" stroke="#27314e"/>
+  <text x="296" y="336" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#7e8cb0">DISPATCHES PER HOUR</text>
+  <rect x="296" y="470" width="34" height="50" rx="6" fill="url(#bar)"/>
+  <rect x="342" y="446" width="34" height="74" rx="6" fill="url(#bar)"/>
+  <rect x="388" y="418" width="34" height="102" rx="6" fill="url(#bar)"/>
+  <rect x="434" y="392" width="34" height="128" rx="6" fill="url(#bar)"/>
+  <rect x="480" y="428" width="34" height="92" rx="6" fill="url(#bar)"/>
+  <rect x="526" y="404" width="34" height="116" rx="6" fill="url(#bar)"/>
+  <rect x="572" y="374" width="34" height="146" rx="6" fill="url(#bar)"/>
+  <rect x="618" y="410" width="34" height="110" rx="6" fill="url(#bar)"/>
+  <rect x="664" y="440" width="34" height="80" rx="6" fill="url(#bar)"/>
+  <line x1="296" y1="520" x2="726" y2="520" stroke="#27314e"/>
+
+  <rect x="762" y="306" width="350" height="240" rx="14" fill="#141f3a" stroke="#27314e"/>
+  <text x="782" y="336" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#7e8cb0">ROUTE COVERAGE</text>
+  <path d="M790 500c40-52 78-36 118-8s70 4 108-26 58-22 78-8" fill="none" stroke="#4f46e5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M790 452c46-24 82-64 126-52s64 60 104 46 52-42 72-32" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-dasharray="7 8" stroke-linecap="round"/>
+  <circle cx="908" cy="492" r="7" fill="#2dd4bf"/>
+  <circle cx="1004" cy="438" r="7" fill="#6d5cf6"/>
+  <circle cx="1078" cy="404" r="7" fill="#22d3ee"/>
+
+  <rect x="276" y="562" width="836" height="88" rx="14" fill="#141f3a" stroke="#27314e"/>
+  <rect x="296" y="586" width="120" height="10" rx="5" fill="#26314f"/>
+  <rect x="296" y="610" width="86" height="10" rx="5" fill="#1f2a47"/>
+  <rect x="470" y="586" width="180" height="10" rx="5" fill="#26314f"/>
+  <rect x="470" y="610" width="120" height="10" rx="5" fill="#1f2a47"/>
+  <rect x="700" y="586" width="96" height="10" rx="5" fill="#26314f"/>
+  <rect x="700" y="610" width="70" height="10" rx="5" fill="#1f2a47"/>
+  <rect x="930" y="592" width="160" height="28" rx="14" fill="#123c35"/>
+  <text x="950" y="611" font-family="Inter, Segoe UI, sans-serif" font-size="12" fill="#2dd4bf">38% faster decisions</text>
+</svg>

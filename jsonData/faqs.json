@@ -1,0 +1,86 @@
+[
+  {
+    "id": "faq-white-label",
+    "category": "Partnership",
+    "question": "Do you work white-label under our brand?",
+    "answer": "Yes — that is the default for agency and studio partners. Our engineers sit in your repository, your Slack and your ceremonies, with your branding on every deliverable. Clients never speak to us unless you ask us to join a call."
+  },
+  {
+    "id": "faq-capacity",
+    "category": "Partnership",
+    "question": "How quickly can you add capacity?",
+    "answer": "A single engineer can usually start within 10 working days. A full squad of four to six takes three to four weeks, because we will not staff a project with people who have not been briefed on it. We will tell you honestly if the timeline you need is unrealistic."
+  },
+  {
+    "id": "faq-nda",
+    "category": "Partnership",
+    "question": "Will you sign an NDA and a subcontractor agreement?",
+    "answer": "Both, before we see any client material. We also accept flow-down clauses, client-specific security policies and background checks where a partner's contract requires them. Our standard terms are available on request."
+  },
+  {
+    "id": "faq-overlap",
+    "category": "Partnership",
+    "question": "How do you cover different timezones?",
+    "answer": "Our team sits in London, Lisbon and Dhaka, which gives a working overlap of at least four hours with Europe, the Middle East and most of North America, and morning handoffs for Asia-Pacific. Every engagement has a named lead who keeps one stable core-hours window with you."
+  },
+  {
+    "id": "faq-data",
+    "category": "Partnership",
+    "question": "How do you handle our client's data and code?",
+    "answer": "Contracts first: an NDA and subcontractor agreement are signed before we see anything, and a data processing agreement is available when your client requires one. Repositories and environments are accessed with named accounts on least privilege, secrets stay in your vault rather than ours, and client material never touches an unmanaged device. Anything we hold is deleted on request, with written confirmation."
+  },
+  {
+    "id": "faq-start",
+    "category": "Process",
+    "question": "How does a partnership start?",
+    "answer": "Almost always with a one to three week discovery sprint: we interview the people who will use the product, audit what already exists, and agree on scope, risks and success measures. You get a written plan you can act on with or without us."
+  },
+  {
+    "id": "faq-duration",
+    "category": "Process",
+    "question": "What does a typical engagement look like?",
+    "answer": "Two shapes dominate: a fixed-scope phase of eight to twenty weeks for a defined build, or a rolling pod retained month to month for roadmap work. Both run in two-week increments with a demo at the end of each one."
+  },
+  {
+    "id": "faq-changes",
+    "category": "Process",
+    "question": "What happens when requirements change?",
+    "answer": "Change is expected. Each fortnight we review the backlog with you and reprioritise. Anything that alters the agreed budget or timeline is written down as an explicit decision, so nobody discovers a surprise at the invoice."
+  },
+  {
+    "id": "faq-pricing",
+    "category": "Commercial",
+    "question": "How do you price partner work?",
+    "answer": "Fixed-scope projects are quoted as a fixed price per phase. Rolling pods run on a monthly retainer covering an agreed team size. We never invoice by the hour, because it rewards the wrong behaviour."
+  },
+  {
+    "id": "faq-margin",
+    "category": "Commercial",
+    "question": "How do partners price us into their margin?",
+    "answer": "Our rates are published to partners as a day rate per role, and most agencies apply their own margin on top. We do not publish a public price list, and we will never undercut a partner by quoting their client directly."
+  },
+  {
+    "id": "faq-discovery-cost",
+    "category": "Commercial",
+    "question": "What does a discovery sprint cost?",
+    "answer": "Discovery starts at £9,500 for a one-week engagement and £24,000 for three weeks. If you continue into delivery, we credit the discovery fee against the first phase."
+  },
+  {
+    "id": "faq-after-launch",
+    "category": "Support",
+    "question": "What happens after launch?",
+    "answer": "Every project includes a 30-day defect warranty. After that you can move to a maintenance plan with a four-hour response target during business hours, or take the codebase in-house with a full handover package."
+  },
+  {
+    "id": "faq-incident",
+    "category": "Support",
+    "question": "What happens if something goes wrong out of hours?",
+    "answer": "Suspected data exposure is reported to your named delivery lead within 24 hours, with one engineer owning it until it closes and a written post-mortem afterwards. Production incidents follow the response target written into the statement of work: four hours during business hours on a maintenance plan, with out-of-hours cover where a rolling pod requires it."
+  },
+  {
+    "id": "faq-takeover",
+    "category": "Support",
+    "question": "Can you take over an existing codebase?",
+    "answer": "Yes, and we will not start by rewriting it. We begin with a two-week audit covering architecture, test coverage, security and deployment, then give you a written assessment with options and costs before touching production code."
+  }
+]

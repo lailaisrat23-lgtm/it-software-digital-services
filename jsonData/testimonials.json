@@ -1,0 +1,42 @@
+[
+  {
+    "id": "t-marsh",
+    "quote": "Techspire rebuilt our client's dispatch platform in four months. We kept the relationship, they kept the deadline — that is the whole point of a partner like this.",
+    "name": "Elena Marsh",
+    "role": "Founder",
+    "company": "Northwind Studio",
+    "rating": 5
+  },
+  {
+    "id": "t-ferrer",
+    "quote": "They joined our product pod for two quarters and left behind tests, docs and a stack our own engineers can maintain. Our roadmap has not slipped since.",
+    "name": "Tomás Ferrer",
+    "role": "VP Product",
+    "company": "Gridline SaaS",
+    "rating": 5
+  },
+  {
+    "id": "t-nair",
+    "quote": "Peak season used to be a fire drill for the agency. This year the campaign sites shipped on time, conversion was up, and nobody was on call at 2am.",
+    "name": "Priya Nair",
+    "role": "Head of Delivery",
+    "company": "Loom & Larder Agency",
+    "rating": 5
+  },
+  {
+    "id": "t-okafor",
+    "quote": "The migration plan was boring in the best possible way — rehearsed, reversible, and finished inside the window we promised the client.",
+    "name": "Daniel Okafor",
+    "role": "Principal Consultant",
+    "company": "Vantage Cloud Partners",
+    "rating": 5
+  },
+  {
+    "id": "t-weiss",
+    "quote": "Our design system finally exists in code, not just in Figma. They implemented every state we forgot to draw and documented it better than we did.",
+    "name": "Hannah Weiss",
+    "role": "Design Director",
+    "company": "Cobalt UX Studio",
+    "rating": 5
+  }
+]
